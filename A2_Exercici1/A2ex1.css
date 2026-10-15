@@ -1,0 +1,43 @@
+body {
+    font-family: serif;
+    font-size: 1.2em;
+    background-color: #fddaef;
+}
+
+p {
+    line-height: 125%;
+}
+
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #cc22ff;
+    font-family: Arial, sans-serif;
+}
+
+pre {
+    border: 1px solid black;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+#especial::first-letter {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.introduccio {
+    color: #663399;
+    background-color: #f5e6ff;
+    padding: 10px;
+}
+
+.destacat {
+    color: #8b1a5a;
+    background-color: #ffe8f3;
+    padding: 8px;
+    border-left: 4px solid #cc22ff;
+}
